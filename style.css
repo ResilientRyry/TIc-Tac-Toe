@@ -1,0 +1,12 @@
+.row{
+  width: 70%;
+  height: 200px;
+  border: 2px solid black;
+  float: left;
+}
+.square{
+  width: 33%;
+  height: 200px;
+  border: 1px solid blue;
+  float: left;
+}
