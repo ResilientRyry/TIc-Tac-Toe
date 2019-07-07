@@ -1,45 +1,31 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
   <head>
-    <meta charset="utf-8">
-    <title>Tic-Tac-Toe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="style.css">
+
   </head>
   <body>
-    <section class="row">
-      <section data-key="1"class="square">
-
+    <h2 id="title">Tic Tac Toe</h2>
+    <section class="container" id="board">
+      <section class="row">
+        <section class="square" id="00"></section>
+        <!-- id is using two digits to help with setting up winning conditions -->
+        <section class="square" id="01"></section>
+        <section class="square" id="02"></section>
       </section>
-      <section data-key="2"class="square">
-
+      <section class="row">
+        <section class="square" id="10"></section>
+        <section class="square" id="11"></section>
+        <section class="square" id="12"></section>
       </section>
-      <section data-key="3"class="square">
-
-      </section>
+      <section class="row">
+        <section class="square" id="20"></section>
+        <section class="square" id="21"></section>
+        <section class="square" id="22"></section>
+     </section>
     </section>
-    <section class="row">
-      <section data-key="4"class="square">
-
-      </section>
-      <section data-key="5"class="square">
-
-      </section>
-      <section data-key="6"class="square">
-
-      </section>
-    </section>
-    <section class="row">
-      <section  data-key="7"class="square">
-
-      </section>
-      <section data-key="8"class="square">
-
-      </section>
-      <section data-key="9"class="square">
-
-      </section>
-    </section>
-
-    <script type="text/javascript" src="main.js"></script>
+    <h3 id="message">Player X turn</h3>
+    <script src="main.js"></script>
   </body>
 </html>
